@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1b5e53;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+        217deg,
+        #02725f,
+        #bfb3eb 70.71%
+      ),
+      linear-gradient(127deg, rgba(147, 79, 236, 0.8), rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 1280px;
+    background: linear-gradient(
+        217deg,
+        #bfb3eb ,
+        #22164e 70.71%
+      ),
+      linear-gradient(127deg, rgba(147, 79, 236, 0.8), rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.email-list {
+    flex: 1; /* Занимает оставшееся пространство */
+    padding: 20px;
+}
+
+.email-item {
+    padding: 10px;
+    border-bottom: 1px solid #00ffd5;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Вертикальная компоновка */
+    }
+
+    .sidebar {
+        width: 100%; /* Ширина бокового меню на весь экран */
+        padding: 10px; /* Меньшие отступы */
+    }
+
+    .email-list {
+        padding: 10px; /* Меньшие отступы */
+    }
+}
