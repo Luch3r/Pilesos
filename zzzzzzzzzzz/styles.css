@@ -1,6 +1,13 @@
 .menu {
-    background-color: #ff0000;
+    background: linear-gradient(
+        217deg,
+        #02725f,
+        #ffffff 70.71%
+      ),
+      linear-gradient(127deg, #145e20, rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, rgba(255, 255, 255, 0.8), rgb(0 0 255 / 0%) 70.71%);
     padding: 20px;
+
 }
 
 ul {
@@ -11,10 +18,18 @@ ul {
 ul li {
     display: inline-block;
     margin: 0 15px;
-    color: #ffffff;
+    color: #145e20;
     font-size: 30px;
+    font-family: cursive;
 }
 
 a {
-    color: white;
+    color: #145e20;
+    font-family: cursive;
+}
+
+body {
+    background-image:url(erwr.jpg);
+    background-size: cover;
+    height: 160vh;
 }

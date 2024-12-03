@@ -1,0 +1,27 @@
+td {
+    background: linear-gradient(
+        217deg,
+        #00ffea,
+        #143a5e 
+      ),
+      linear-gradient(127deg, #00ffea, rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, #143a5e, rgb(0 0 255 / 0%) 70.71%);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+
+}
+
+tr {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+body {
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+}
+
+table { 
+    margin: auto;
+}
