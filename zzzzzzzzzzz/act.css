@@ -1,11 +1,11 @@
 td {
     background: linear-gradient(
         217deg,
-        #00ffea,
-        #143a5e 
+        #ffffff,
+        #0084ff 
       ),
-      linear-gradient(127deg, #00ffea, rgb(0 255 0 / 0%) 70.71%),
-      linear-gradient(336deg, #143a5e, rgb(0 0 255 / 0%) 70.71%);
+      linear-gradient(127deg, #ffffff, rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, #0084ff, rgb(0 0 255 / 0%) 70.71%);
     padding: 20px;
     color: rgb(255, 255, 255);
     font-family: cursive;
@@ -18,10 +18,24 @@ tr {
 }
 
 body {
-    background-image: url(maxresdefault.jpg);
+    background-image: url(123213.jpg);
     background-size: cover;
 }
 
 table { 
     margin: auto;
+
+}
+
+p {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 100px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: cursive;
 }
